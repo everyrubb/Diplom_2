@@ -18,4 +18,6 @@ def get_token(helpers):
         "name": data[2]
     })
     token = response.json().get("accessToken")
-    return token
+
+    yield token
+    requests.delete(Const.UPDATE_DATA, headers={"Authorization": f'{token}'})
