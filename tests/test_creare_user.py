@@ -16,7 +16,6 @@ class TestCreareUser:
             }
         response = requests.post(Const.CREATE_USER, data=payload)
         assert response.status_code == 200
-        print(response.text)
         assert MessageText.CREATE_USER in response.text
 
     @allure.title('Проверка невозможности создания двух одинаковых пользователей')
