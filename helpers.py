@@ -1,6 +1,7 @@
 import random
 import string
 
+import allure
 import requests
 
 from const import Const
@@ -28,6 +29,7 @@ class Helpers:
         password = self.generate_random_string(10)
         return email, name, password
 
+    @allure.step("Регистрируем нового пользователя и получаем информацию для авторизации")
     def register_new_user_and_return_login_password(self):
         login_pass = []
 
