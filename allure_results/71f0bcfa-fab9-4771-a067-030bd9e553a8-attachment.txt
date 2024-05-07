@@ -1,0 +1,1 @@
+{"success":true,"user":{"email":"cherenkova_063676@ya.ru","name":"bzbtfbmeov"},"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MzA4YzgxOWVkMjgwMDAxYjNmMmFmZCIsImlhdCI6MTcxNDQ1NzcyOSwiZXhwIjoxNzE0NDU4OTI5fQ.ciMVn9xAXqOYUYyTlNG9AARZFOco0ipqy8uMqUnDr4A","refreshToken":"8b5f470f42f08f4d6ec8e0160c29ce7b70ca8e4dafc964170577cc90a8b2293d55a56d136c78f650"}
